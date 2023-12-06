@@ -1,0 +1,592 @@
+<!-- ======= Header ======= -->
+<header id="header" class="headerTarget">
+
+  <nav class="navbar navbar-expand-md fixed-top navbar-light" id="mainNav" [ngClass]="{'pt': ariaExpanded}">
+    <img class="navbar-brand text-uppercase click" src="assets/logo/paragon_logo3.png" (click)="scrollToTop()" />
+
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+      (click)="clickMenu()" data-target="#navbarMenuContent" aria-controls="navbarMenuContent" aria-expanded="false"
+      aria-label="Toggle navigation" id="menu-button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenuContent">
+      <ul class="navbar-nav ml-auto text-uppercase">
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.aboutTarget')" id="aboutus-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.policyTarget')" id="principal-link">Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.principalTarget')" id="principal-link">Principal Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.serviceTarget')" id="services-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.trainingTarget')" id="careers-link">Trainings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.recruitementTarget')" id="careers-link">Recruitment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.portfolioTarget')" id="products-link">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.contactTarget')" id="contactus-link">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</header><!-- End Header -->
+
+<!-- ======= Intro Section ======= -->
+<section id="intro">
+  <div class="intro-container">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/intro1.jpg" class="d-block w-100 h-100 intro-img" alt="">
+          <div class="carousel-caption d-md-block">
+            <h5 class="title">Technical Solutions</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/recruitement.jpg" class="d-block w-100 h-100 intro-img" alt="">
+          <div class="carousel-caption d-md-block">
+            <h5 class="title">Recruitment & Placement</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/training2.jpg" class="d-block w-100 h-100 intro-img" alt="">
+          <div class="carousel-caption d-md-block">
+            <h5 class="title">Training</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Intro Section -->
+
+<main id="main">
+
+  <!-- ======= Featured Services Section Section ======= -->
+  <section id="featured-services">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 box">
+          <i class="ion-settings"></i>
+          <h4 class="title"><a>Technical Solution</a></h4>
+          <p class="description">PARAGON TECH SOLUTIONS LTD provide high end technical solution for all sort of business
+            problems and
+            help for improving your business to next level. We specialise in
+            IR4.0/ Digital Transformation –RPA, IOT,
+            Artificial Intelligence, Block chain, Cloud,
+            Data Analytics, Robotics, Drone.
+          </p>
+        </div>
+
+        <div class="col-lg-4 box box-bg">
+          <i class="ion-ios-body-outline"></i>
+          <h4 class="title"><a>Trainings</a></h4>
+          <p class="description">We offers training in technical and non-technical areas. It is supported
+            by IEEE SMC (System Man & Cybernetics)</p>
+        </div>
+
+        <div class="col-lg-4 box">
+          <i class="ion-ios-bookmarks"></i>
+          <h4 class="title"><a>Recruitment & Placements</a></h4>
+          <p class="description">To deliver professional and proficient hiring soliton to meet every
+            client's requirement to be a bridge between aspiring talent with career
+            aspirations linked to client's expectation.</p>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Featured Services Section -->
+
+  <!-- ======= About Us Section ======= -->
+  <section id="about" class="aboutTarget">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+        <h3>About Us</h3>
+        <p> <b>Paragon Tech Solutions Ltd (Paragon)</b> is an emerging technology solution,
+          Consultancy, recruitment, and training provider company. Paragon provides
+          expertise in the area of digital transformation, where technology such as the
+          Internet of things, Artificial Intelligence, Cloud technology, Blockchain, control,
+          and Automation. Paragon also delivers web and mobile application development.</p>
+        <p>
+          We create and build technological products, from concept to completion
+          and commercialisation which transforms businesses that is stable,
+          scalable and secure.
+        </p>
+      </header>
+
+
+
+    </div>
+  </section><!-- End About Us Section -->
+
+  <!-- Principal Team Section-->
+  <section id="principal" class="policyTarget principal-header policySection">
+    <header class="section-header wow fadeInUp">
+      <h3>Corporate social responsibility company policy</h3>
+    </header>
+    <div class="row policy-cols justify-content">
+
+      <div class="col-md-12 principal-col-data" data-aos="fade-up" data-aos-delay="100">
+        <div class="principal-col">
+          <p>
+            Our company’s social responsibility falls under two categories: compliance and pro-activeness. Compliance
+            refers to our company’s commitment to legality and willingness to observe community values. Pro-activeness
+            is every initiative to promote human rights, help communities and protect our natural environment.
+            <br />
+            <br />
+
+            Our aim is to engage closely with the communities around the world where we operate and recognize our
+            responsibility to contribute towards them. We aim to work together with charities and social enterprises
+            towards maximum impact in our three focus areas: communities, employability, and difference.
+            <br />
+            For WEPA (Water Electronic Personal Assistant), we plan to apply to become a program partner IN
+            <b> PLANET WATER FOUNDATION</b>, which is a non-profit organization focused on alleviating the global water
+            crisis by bringing clean water access and water-health and hygiene education programs to the world’s most
+            impoverished communities
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- End Principal team Section -->
+
+  <!-- Principal Team Section-->
+  <section id="principal" class="principalTarget principal-header">
+    <header class="section-header wow fadeInUp">
+      <h3>Principal Team</h3>
+    </header>
+    <div class="row principal-cols justify-content">
+
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="100">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Paul Reece <br />
+              <span class="text-muted designation">Chief Technology Officer</span></a>
+          </h2>
+          <p>
+            BSc Engineering, MSc International Business and Finance (University of Manchester),
+            has worked for over twenty-five years with some of the world's largest global ICT
+            Companies in various management roles including System Engineering, Bid Management,
+            Sales Management, and Global Client Management, and Commercial Management.
+            He also has significant senior management experience in the Banking Sector and
+            early in his career in the Food Retail Industry. Paul is our Chief Technical Officer
+            and the brainchild of WEPA development.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Tom Skolbekken</a>
+          </h2>
+          <p>
+            BSc Engineering (University of Manchester), MBA, who is our Product
+            Manager based in Norway and has experience in the ICT, E-commerce, and
+            Retail sectors.</p>
+        </div>
+      </div>
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Dr. Karthigayan M <br />
+              <span class="text-muted designation">Chief Digital Officer</span></a>
+          </h2>
+          <p>
+            Ph.D. CEng IntPE(UK) MIET SMIEEE, who is our Chief Digital Officer and has more than 18 years of experience
+            in various MNC industries. He is a renowned expert in Business digital transformation, Artificial
+            Intelligence, control and automation, Internet of Things. He has authored more than 50 including book
+            chapters, International Journals, and conferences. With his vast academic, research, and management
+            experience, he acquired the CEng (Chartered Engineer) title and also IntPE (International Professional
+            Engineer) from Engineering Council UK. He is a Senior Member and also an Exco-committee member of IEEE
+            System Man Cybernetics, Malaysia.</p>
+        </div>
+      </div>
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Seyed Hossein Nikou</a>
+          </h2>
+          <p>
+            BSc Computer Engineering (Software), MSc Computer Science (Information
+            Technology- Management) (University Technology Malaysia) Ph.D. Doctor of
+            Philosophy (Information Systems) (University Technology Malaysia).</p>
+        </div>
+      </div>
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Darren Cheong Hao Huan</a>
+          </h2>
+          <p>
+            BSc Computer Science with Management (King's College, London University). Darren has completed internships
+            at Accenture and Microsoft Corporation.</p>
+        </div>
+      </div>
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Belinda Cerclay</a>
+          </h2>
+          <p>
+            BA (Hons), MA Modern Languages & International Business (University of
+            London)- is the founder and Executive Director and major Shareholder in
+            Paragon. She has acquired a monumental business acumen having worked for
+            several International Companies, including Gulf International owned by
+            the Kuwaiti Royal Family, Melford International (USA), and Price Water
+            House. Belinda will lead the strategic corporate affairs and as well as
+            marketing team.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>The Honorable Datuk (Sir) SK. Lingam </a>
+          </h2>
+          <p>
+            is an International Corporate Consultant and Advisor. Datuk SK is a
+            member of the Prestigious International Bar Association (The IBA is the
+            foremost organization for international legal practitioners, bar
+            associations, and law societies). He is also Chairman of Malaysia Link
+            UK & President of ASEAN UK Business Forum. Datuk SK is also a mentor at
+            level 39, Canary Wharf, London. Level 39 is Europe's largest technology
+            accelerator.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 principal-col-data" data-aos="fade-up" data-aos-delay="300">
+        <div class="principal-col">
+          <h2 class="title">
+            <i class="ion-person"></i> &nbsp;
+            <a>Rajveer Mendhir<br />
+              <span class="text-muted designation">Strategic Commercial Advisor</span></a>
+          </h2>
+          <p>
+            Paragon Tech Solutions Ltd
+            Rajveer Mendhir (Raj) is a deal maker with immense commercial acumen. He is an entrepreneur with 13 years in
+            consulting, business & strategy. After graduating from the London School of Economics he gained a wealth of
+            experience in Advising, consulting, finance and transactions, before building a number of businesses in the
+            service and startup world. Raj is a well reputed advisor to startups, on all things commerical, sales and
+            talent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Principal team Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="serviceTarget">
+    <div class="container-md" data-aos="fade-up">
+
+      <header class="section-header wow fadeInUp">
+        <h3>Services</h3>
+      </header>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100"
+          *ngFor="let s of services; let i = index">
+          <div class="card">
+            <div class="row no-gutters padding-none">
+              <div class="col-2 icon-container">
+                <div class="icon"><i class="{{s.icon}}"></i></div>
+              </div>
+              <div class="col-10">
+                <div class="card-body">
+                  <h5 class="title">{{s.title}}</h5>
+                  <p>{{s.caption}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Call To Action Section ======= -->
+  <section id="trainings" class="trainingTarget">
+    <div class="container" data-aos="zoom-in">
+      <h3 class="section-title text-uppercase">Trainings</h3>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100"
+          *ngFor="let t of trainings; let i = index">
+          <div class="card">
+            <div class="row no-gutters padding-none">
+              <div class="col-2 icon-container">
+                <div class="icon"><i class="{{t.icon}}"></i></div>
+              </div>
+              <div class="col-10">
+                <div class="card-body">
+                  <h5 class="title">{{t.title}}</h5>
+                  <!-- <p>{{t.caption}}</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Call To Action Section -->
+
+  <!-- ======= Recruitment ======= -->
+  <section id="trainings" class="recruitementTarget">
+    <div class="container" data-aos="zoom-in">
+      <h3 class="section-title text-uppercase">Recruitment & Contract Staffing</h3>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100"
+          *ngFor="let t of recruitments; let i = index">
+          <div class="card">
+            <div class="row no-gutters padding-none">
+              <div class="col-2 icon-container">
+                <div class="icon"><i class="{{t.icon}}"></i></div>
+              </div>
+              <div class="col-10">
+                <div class="card-body">
+                  <h5 class="title">{{t.title}}</h5>
+                  <!-- <p>{{t.caption}}</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Call To Action Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="section-bg portfolioTarget">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+        <h3 class="section-title">Products</h3>
+      </header>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="assets/img/schl.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a>WEPA</a>
+              </h4>
+              <p class="card-text">At present Paragon is developing a Water Electronic Personal Assistance (WEPA) is
+                focusing on Water conservation and water security which is a major cause globally. The emphasis is on
+                ensuring sustainable water supply & optimizing water usage focusing on creating sustainable sources and
+                improving the processing, treatment & distribution of water. Paragon is carrying out Research and
+                development
+                involving using IOT, ARTIFICIAL INTELLIGENCE, AUTOMATION,
+                and other technological concepts to assist and accelerate the development and commercialization.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="assets/img/hr1.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a>PIXZE</a>
+              </h4>
+              <p class="card-text">Paragon is also into developing an Intelligent application platform
+                called PIXZE is focusing on Digital Transformation for Home especially
+                on Electrical. The emphasis is on ensuring the quality service on the
+                electrical system for residence. Paragon is involving Robot Process
+                Automation, Data Analytics, Internet of Things, Cloud Technology for the
+                commercial development.
+              </p>
+              <!-- <br />
+              <p>Our ERP solutions cover major industries which include:</p>
+              <ul>
+                <li> Manufacturing.</li>
+                <li> Distribution.</li>
+                <li> Professional Services.</li>
+                <li> Construction.</li>
+                <li> Industrial Services.</li>
+                <li> Service Business.</li>
+                <li> Healthcare.</li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="section-bg contactTarget">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h3>Contact Us</h3>
+      </div>
+
+      <div class="row contact-info">
+
+        <div class="col-md-4">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Registered Address</h3>
+            <address>PARAGON TECH SOLUTIONS LTD,
+
+              296 Kenton Road,
+
+              Kenton,
+
+              Harrow,
+
+              HA3 8DD
+
+            </address>
+            <!-- <p><b>Website:</b><a href="http://paragontechsolutions.co.uk/" target="_blank"> &nbsp;
+                www.paragontechsolutions.co.uk</a></p> -->
+          </div>
+        </div>
+
+        <!-- <div class="col-md-4">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p><a href="+60 17-950 0361">+60 17-950 0361</a></p>
+          </div>
+        </div> -->
+
+        <div class="col-md-4">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:belinda.paragontech@gmail.com"> belinda.paragontech@gmail.com</a></p>
+            <p><a href="mailto:karthi.paragontech@gmail.com"> karthi.paragontech@gmail.com</a></p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+</main>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>PARAGON TECH SOLUTIONS LTD</h3>
+          <p>PARAGON TECH SOLUTIONS LTD deliver best solution and services to the client to
+            excel in their objective.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li class="click" (click)="scrollToTop()"><i class="ion-ios-arrow-right"></i> <a>Home</a>
+            </li>
+
+            <li class="click" (click)="scrollToTarget('.aboutTarget')"><i class="ion-ios-arrow-right"></i> <a>About
+                us</a></li>
+            <li class="click" (click)="scrollToTarget('.policyTarget')"><i class="ion-ios-arrow-right"></i> <a>Policy
+              </a></li>
+            <li class="click" (click)="scrollToTarget('.principalTarget')"><i class="ion-ios-arrow-right"></i> <a>
+                Principal Team
+              </a></li>
+            <li class="click" (click)="scrollToTarget('.serviceTarget')"><i class="ion-ios-arrow-right"></i>
+              <a>Services</a>
+            </li>
+            <li class="click" (click)="scrollToTarget('.trainingTarget')"><i class="ion-ios-arrow-right"></i>
+              <a>Trainings</a>
+            </li>
+            <li class="click" (click)="scrollToTarget('.recruitementTarget')"><i class="ion-ios-arrow-right"></i>
+              <a>Recruitment</a>
+            </li>
+            <li class="click" (click)="scrollToTarget('.')"><i class="ion-ios-arrow-right"></i>
+              <a>Products</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            PARAGON TECH SOLUTIONS LTD
+            <br />
+            United Kingdom <br>
+
+            <strong>Email:</strong> <a href="belinda.paragontech@gmail.com"> belinda.paragontech@gmail.com</a><br>
+          </p>
+
+          <div class="social-links">
+            <a class="twitter click"><i class="ion-social-twitter"></i></a>
+            <a class="facebook click"><i class="ion-social-facebook"></i></a>
+            <a class="instagram click"><i class="ion-social-instagram"></i></a>
+            <a class="google-plus click"><i class="ion-social-google"></i></a>
+            <a class="linkedin click"><i class="ion-social-linkedin"></i></a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Work With Us</h4>
+          <p>Strive to be the preferred recruitment partner to our clients.</p>
+          <a href="mailto:belinda.paragontech@gmail.com" type="submit">Submit Resume</a>
+
+          <!-- <img src="assets/logo/training.jpeg" class="d-block w-60 h-60" style="width: 60%;margin:15px;" alt=""> -->
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+
+<!--Scroll to top-->
+<a class="back-to-top click" (click)="scrollToTop()" [ngClass]="{'show-scrollTop': windowScrolled}">
+  <i class="ion-chevron-up"></i>
+</a>
